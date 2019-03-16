@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TrafMasterV1-rescue)(type Legacy)(uri ${KIPRJMOD}/TrafMasterV1-rescue.lib)(options "")(descr ""))
+)
