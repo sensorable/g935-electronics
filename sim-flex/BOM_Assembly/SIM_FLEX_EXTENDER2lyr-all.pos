@@ -1,0 +1,9 @@
+### Module positions - created on 11/10/2017 10:59:36 AM ###
+### Printed by Pcbnew version kicad 4.0.2-stable
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                        Package                    PosX       PosY       Rot  Side
+C1        Cap_UnPol                  0603_Medium_Pads         0.2360     0.2215  180.0000  top
+C2        Cap_UnPol                  0603_Medium_Pads         0.7956     0.2412  180.0000  top
+P2        NANO_SIM_SF72S006VBAR2500  JAE-SF72S006VBAR2500     0.5180     0.2105    0.0000  top
+## End

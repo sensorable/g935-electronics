@@ -1,0 +1,4 @@
+Reference, Value, Footprint, Manufacturer1, Manufacturer1PartNumber
+C1,1000pF X7R,Footprints:0603_Medium_Pads,Yageo,AC0603KRX7R8BB102
+C2,1000pF X7R,Footprints:0603_Medium_Pads,Yageo,AC0603KRX7R8BB102
+P2,NANO_SIM_SF72S006VBAR2500,Footprints:JAE-SF72S006VBAR2500,JAE,SF72S006VBAR2500
