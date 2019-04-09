@@ -73,10 +73,10 @@ This completes the startup logic.
 **12v input terminal block**: use 26AWG - 20AWG wires, 4.5mm stripping length. There are no markings on the connector or the board. Use a sticker or a permanent marker to clearly indicate +/- terminals.
 
 
-[photo]: img\custom-boards.jpg
-[4.2v]: img\sch-psu-4.2v.jpg
-[5v]: img\sch-psu-5v.jpg
-[input protection]: img\sch-psu-input-protection.jpg
-[otg]: img\sch-psu-otg-toggle.jpg
-[tps]: img\efficiency-tps54339e.png
+[photo]: img/custom-boards.jpg
+[4.2v]: img/sch-psu-4.2v.jpg
+[5v]: img/sch-psu-5v.jpg
+[input protection]: img/sch-psu-input-protection.jpg
+[otg]: img/sch-psu-otg-toggle.jpg
+[tps]: img/efficiency-tps54339e.png
 
