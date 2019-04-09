@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L __SimpleParts:GND #PWR0105
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0105
 U 1 1 5C06F23E
 P 3475 2225
 F 0 "#PWR0105" H 3450 2210 5   0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 3475 2225 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L __SimpleParts:PAD P2
+L TrafMasterV1-rescue:PAD-__SimpleParts P2
 U 1 1 5C070C8F
 P 1200 1100
 F 0 "P2" H 1238 1100 10  0000 L CNN
@@ -41,7 +41,7 @@ $EndComp
 Text Notes 1125 1000 0    50   ~ 0
 Drill Holes
 $Comp
-L __SimpleParts:PAD P3
+L TrafMasterV1-rescue:PAD-__SimpleParts P3
 U 1 1 5C07170F
 P 1350 1100
 F 0 "P3" H 1388 1100 10  0000 L CNN
@@ -54,7 +54,7 @@ F 5 "MFG1PN" H 1350 1100 6   0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:PAD P4
+L TrafMasterV1-rescue:PAD-__SimpleParts P4
 U 1 1 5C071890
 P 3675 2075
 F 0 "P4" H 3713 2075 10  0000 L CNN
@@ -75,7 +75,7 @@ Wire Wire Line
 Text Notes 1200 1050 0    35   ~ 0
 2mm
 $Comp
-L __SimpleParts:PAD P6
+L TrafMasterV1-rescue:PAD-__SimpleParts P6
 U 1 1 5C082AE3
 P 1200 1200
 F 0 "P6" H 1238 1200 10  0000 L CNN
@@ -88,7 +88,7 @@ F 5 "MFG1PN" H 1200 1200 6   0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:PAD P7
+L TrafMasterV1-rescue:PAD-__SimpleParts P7
 U 1 1 5C082AEB
 P 1350 1200
 F 0 "P7" H 1388 1200 10  0000 L CNN
@@ -101,7 +101,7 @@ F 5 "MFG1PN" H 1350 1200 6   0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:PAD P5
+L TrafMasterV1-rescue:PAD-__SimpleParts P5
 U 1 1 5C082E0E
 P 3675 2225
 F 0 "P5" H 3713 2225 10  0000 L CNN
@@ -116,7 +116,7 @@ $EndComp
 Wire Wire Line
 	3475 2225 3675 2225
 $Comp
-L __Interfaces:Conn_Basic_10_pin P1
+L TrafMasterV1-rescue:Conn_Basic_10_pin-__Interfaces P1
 U 1 1 5C086062
 P 1850 4200
 F 0 "P1" H 1928 4223 20  0000 L CNN
@@ -133,7 +133,7 @@ Text Notes 1750 3625 0    40   ~ 0
 Text Notes 1725 3800 0    30   ~ 0
 (Same order as USB board. \nCrossover in cable.)
 $Comp
-L __SimpleParts:GND #PWR0101
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0101
 U 1 1 5C0862FA
 P 1650 4550
 F 0 "#PWR0101" H 1625 4535 5   0001 C CNN
@@ -146,7 +146,7 @@ $EndComp
 Wire Wire Line
 	1650 4550 1850 4550
 $Comp
-L __SimpleParts:GND #PWR0102
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0102
 U 1 1 5C08637D
 P 1650 3875
 F 0 "#PWR0102" H 1625 3860 5   0001 C CNN
@@ -175,7 +175,7 @@ ID
 Wire Wire Line
 	1675 4250 1850 4250
 $Comp
-L __SimpleParts:GND #PWR0103
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0103
 U 1 1 5C0867A4
 P 1650 4175
 F 0 "#PWR0103" H 1625 4160 5   0001 C CNN
@@ -192,7 +192,7 @@ D+
 Wire Wire Line
 	1675 4100 1850 4100
 $Comp
-L __SimpleParts:GND #PWR0104
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0104
 U 1 1 5C086A72
 P 1650 4025
 F 0 "#PWR0104" H 1625 4010 5   0001 C CNN
@@ -211,7 +211,7 @@ Wire Wire Line
 Text Notes 950  1900 0    50   ~ 0
 12V Battery Input
 $Comp
-L __Interfaces:Conn_Basic_2_pin P8
+L TrafMasterV1-rescue:Conn_Basic_2_pin-__Interfaces P8
 U 1 1 5C08749E
 P 1100 2250
 F 0 "P8" H 1153 2281 10  0000 L CNN
@@ -224,7 +224,7 @@ F 5 "1725656" H 1160 2260 10  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0106
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0106
 U 1 1 5C087562
 P 1100 2375
 F 0 "#PWR0106" H 1075 2360 5   0001 C CNN
@@ -245,7 +245,7 @@ Wire Wire Line
 Text Notes 2850 3725 0    40   ~ 0
 FULL SIZE\nUSB RECEPTICLE\nFOR FTDI MODULE
 $Comp
-L __SimpleParts:GND #PWR0107
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0107
 U 1 1 5C0887F6
 P 2875 4075
 F 0 "#PWR0107" H 2850 4060 5   0001 C CNN
@@ -266,7 +266,7 @@ D-
 Wire Wire Line
 	2775 3925 3075 3925
 $Comp
-L __Interfaces:Conn_Basic_5_pin_0 P9
+L TrafMasterV1-rescue:Conn_Basic_5_pin_0-__Interfaces P9
 U 1 1 5C089DAE
 P 3075 4000
 F 0 "P9" H 3128 4031 10  0000 L CNN
@@ -283,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	2875 4075 3075 4075
 $Comp
-L __SimpleParts:GND #PWR0108
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0108
 U 1 1 5C08A723
 P 2875 4150
 F 0 "#PWR0108" H 2850 4135 5   0001 C CNN
@@ -296,7 +296,7 @@ $EndComp
 Wire Wire Line
 	2875 4150 3075 4150
 $Comp
-L __SimpleParts:N_MOS_SOT23 Q2
+L TrafMasterV1-rescue:N_MOS_SOT23-__SimpleParts Q2
 U 1 1 5C08AE0E
 P 5150 4600
 F 0 "Q2" H 5253 4613 30  0000 L CNN
@@ -309,7 +309,7 @@ F 5 "DMN63D8L-7" H 5245 4525 10  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:P_MOS_SOT23 Q1
+L TrafMasterV1-rescue:P_MOS_SOT23-__SimpleParts Q1
 U 1 1 5C08B1AF
 P 5150 3925
 F 0 "Q1" V 5309 3925 30  0000 C CNN
@@ -326,7 +326,7 @@ Text GLabel 4750 3925 0    35   Input ~ 0
 Wire Wire Line
 	4750 3925 4875 3925
 $Comp
-L __SimpleParts:GND #PWR0109
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0109
 U 1 1 5C08BA54
 P 5150 4850
 F 0 "#PWR0109" H 5125 4835 5   0001 C CNN
@@ -337,7 +337,7 @@ F 3 "" H 5150 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0110
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0110
 U 1 1 5C08C2B6
 P 5775 4850
 F 0 "#PWR0110" H 5750 4835 5   0001 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 5775 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:Res R2
+L TrafMasterV1-rescue:Res-__SimpleParts R2
 U 1 1 5C08CC14
 P 4875 4075
 F 0 "R2" H 4916 4089 10  0000 L CNN
@@ -362,7 +362,7 @@ F 6 "RC0805FR-071KL" V 5155 4395 60  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:Res R3
+L TrafMasterV1-rescue:Res-__SimpleParts R3
 U 1 1 5C08CEC7
 P 5550 4725
 F 0 "R3" H 5500 4750 10  0000 L CNN
@@ -380,7 +380,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 4650 4850 4600
 $Comp
-L __SimpleParts:GND #PWR0111
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0111
 U 1 1 5C08D834
 P 4850 4850
 F 0 "#PWR0111" H 4825 4835 5   0001 C CNN
@@ -400,7 +400,7 @@ Connection ~ 4975 4600
 Wire Wire Line
 	4975 4600 5050 4600
 $Comp
-L __SimpleParts:GND #PWR0112
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0112
 U 1 1 5C08E631
 P 4975 4850
 F 0 "#PWR0112" H 4950 4835 5   0001 C CNN
@@ -413,7 +413,7 @@ $EndComp
 Wire Wire Line
 	4975 4850 4975 4800
 $Comp
-L __SimpleParts:Cap_UnPol C1
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C1
 U 1 1 5C08EAD8
 P 4600 4600
 F 0 "C1" V 4475 4600 10  0000 C CNN
@@ -456,7 +456,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 4575 5675 4575
 $Comp
-L __SimpleParts:GND #PWR0113
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0113
 U 1 1 5C093894
 P 5550 4850
 F 0 "#PWR0113" H 5525 4835 5   0001 C CNN
@@ -479,7 +479,7 @@ Wire Wire Line
 	5150 4350 5150 4450
 Connection ~ 5550 4575
 $Comp
-L __SimpleParts:Res R1
+L TrafMasterV1-rescue:Res-__SimpleParts R1
 U 1 1 5C0959A6
 P 4850 4725
 F 0 "R1" H 4800 4750 10  0000 L CNN
@@ -501,7 +501,7 @@ USB OTG TOGGLE CIRCUITRY
 Text GLabel 2600 2325 1    30   Input ~ 0
 12V
 $Comp
-L __SimpleParts:PAD P10
+L TrafMasterV1-rescue:PAD-__SimpleParts P10
 U 1 1 5C0A151C
 P 1800 4800
 F 0 "P10" H 1838 4800 10  0000 L CNN
@@ -514,7 +514,7 @@ F 5 "MFG1PN" H 1800 4800 10  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:PAD P11
+L TrafMasterV1-rescue:PAD-__SimpleParts P11
 U 1 1 5C0A1DDF
 P 1800 4850
 F 0 "P11" H 1838 4850 10  0000 L CNN
@@ -527,7 +527,7 @@ F 5 "MFG1PN" H 1800 4850 10  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __Power:TPS54339 U1
+L TrafMasterV1-rescue:TPS54339-__Power U1
 U 1 1 5C0A2F73
 P 5625 2050
 F 0 "U1" H 5625 2305 25  0000 C CNN
@@ -540,7 +540,7 @@ F 5 "TPS54339EDDAR" H 5625 2075 20  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C10
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C10
 U 1 1 5C0A32DD
 P 4975 4750
 F 0 "C10" H 4917 4723 10  0000 R CNN
@@ -554,7 +554,7 @@ F 6 "C3216X7R1E106K160AB" H 5000 4750 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C2
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C2
 U 1 1 5C0A3EAA
 P 5050 2075
 F 0 "C2" H 5025 2100 10  0000 R CNN
@@ -568,7 +568,7 @@ F 6 "C3216X7R1E106K160AB" H 5075 2075 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C3
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C3
 U 1 1 5C0A46DA
 P 5225 2075
 F 0 "C3" H 5167 2048 10  0000 R CNN
@@ -582,7 +582,7 @@ F 6 "C0805C474K3RACTU" H 5250 2075 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0114
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0114
 U 1 1 5C0A51CC
 P 5050 2175
 F 0 "#PWR0114" H 5025 2160 5   0001 C CNN
@@ -595,7 +595,7 @@ $EndComp
 Wire Wire Line
 	5050 2175 5050 2125
 $Comp
-L __SimpleParts:GND #PWR0115
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0115
 U 1 1 5C0A59B4
 P 5225 2175
 F 0 "#PWR0115" H 5200 2160 5   0001 C CNN
@@ -608,7 +608,7 @@ $EndComp
 Wire Wire Line
 	5225 2175 5225 2125
 $Comp
-L __SimpleParts:GND #PWR0116
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0116
 U 1 1 5C0A61FF
 P 5475 2250
 F 0 "#PWR0116" H 5450 2235 5   0001 C CNN
@@ -623,7 +623,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 2200 5525 2200
 $Comp
-L __SimpleParts:GND #PWR0117
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0117
 U 1 1 5C0A73EB
 P 5625 2300
 F 0 "#PWR0117" H 5600 2285 5   0001 C CNN
@@ -655,7 +655,7 @@ Wire Wire Line
 Wire Wire Line
 	5775 2100 5725 2100
 $Comp
-L __SimpleParts:GND #PWR0118
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0118
 U 1 1 5C0AEB8E
 P 5925 2100
 F 0 "#PWR0118" H 5900 2085 5   0001 C CNN
@@ -683,7 +683,7 @@ Wire Wire Line
 Wire Wire Line
 	5775 1900 5725 1900
 $Comp
-L __SimpleParts:GND #PWR0119
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0119
 U 1 1 5C0B7EF3
 P 5925 1900
 F 0 "#PWR0119" H 5900 1885 5   0001 C CNN
@@ -696,7 +696,7 @@ $EndComp
 Wire Wire Line
 	5925 1900 5875 1900
 $Comp
-L __SimpleParts:INDUCTOR L1
+L TrafMasterV1-rescue:INDUCTOR-__SimpleParts L1
 U 1 1 5C0B95EA
 P 5550 2500
 F 0 "L1" H 5550 2418 10  0000 C CNN
@@ -714,7 +714,7 @@ Wire Wire Line
 	5400 2500 5400 2100
 Connection ~ 5400 2100
 $Comp
-L __SimpleParts:GND #PWR0120
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0120
 U 1 1 5C0BD536
 P 5675 2725
 F 0 "#PWR0120" H 5650 2710 5   0001 C CNN
@@ -731,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 2500 5600 2500
 $Comp
-L __SimpleParts:Cap_UnPol C6
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C6
 U 1 1 5C0C067C
 P 5800 2625
 F 0 "C6" H 5775 2650 10  0000 R CNN
@@ -747,7 +747,7 @@ $EndComp
 Wire Wire Line
 	5800 2725 5800 2675
 $Comp
-L __SimpleParts:GND #PWR0121
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0121
 U 1 1 5C0C37F6
 P 5800 2725
 F 0 "#PWR0121" H 5775 2710 5   0001 C CNN
@@ -761,7 +761,7 @@ Wire Wire Line
 	5800 2500 5800 2575
 Connection ~ 5675 2500
 $Comp
-L __SimpleParts:Cap_UnPol C9
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C9
 U 1 1 5C0C6970
 P 5925 2625
 F 0 "C9" H 5900 2650 10  0000 R CNN
@@ -777,7 +777,7 @@ $EndComp
 Wire Wire Line
 	5925 2725 5925 2675
 $Comp
-L __SimpleParts:GND #PWR0122
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0122
 U 1 1 5C0C6977
 P 5925 2725
 F 0 "#PWR0122" H 5900 2710 5   0001 C CNN
@@ -805,7 +805,7 @@ Connection ~ 5050 2000
 Text GLabel 6275 2400 2    30   Input ~ 0
 Dev+
 $Comp
-L __SimpleParts:GND #PWR0124
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0124
 U 1 1 5C0E2340
 P 5850 2425
 F 0 "#PWR0124" H 5825 2410 5   0001 C CNN
@@ -834,7 +834,7 @@ Connection ~ 6175 2400
 Wire Wire Line
 	6175 2400 6175 2200
 $Comp
-L __SimpleParts:Cap_UnPol C4
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C4
 U 1 1 5C0F4761
 P 5400 2000
 F 0 "C4" H 5350 1975 10  0000 R CNN
@@ -848,7 +848,7 @@ F 6 "C0805C474K3RACTU" H 5425 2000 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C7
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C7
 U 1 1 5C0F6C4C
 P 5825 1900
 F 0 "C7" V 5875 1950 10  0000 C CNN
@@ -862,7 +862,7 @@ F 6 "C0805C474K3RACTU" H 5850 1900 10  0001 C CNN "Manufacturer1PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C8
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C8
 U 1 1 5C0FB60F
 P 5825 2100
 F 0 "C8" V 5875 2100 10  0000 C CNN
@@ -876,7 +876,7 @@ F 6 "C0805C474K3RACTU" H 5850 2100 10  0001 C CNN "Manufacturer1PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C5
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C5
 U 1 1 5C0FE868
 P 5675 2625
 F 0 "C5" H 5617 2598 10  0000 R CNN
@@ -896,7 +896,7 @@ Text Notes 5375 1625 0    40   ~ 0
 Text Notes 5800 1675 0    30   ~ 0
 3A max
 $Comp
-L __SimpleParts:Res R6
+L TrafMasterV1-rescue:Res-__SimpleParts R6
 U 1 1 5C104BBE
 P 5975 2200
 F 0 "R6" H 5950 2200 10  0000 R CNN
@@ -910,7 +910,7 @@ F 6 "RC0805FR-07100KL" V 6255 2520 60  0001 C CNN "Manufacturer1PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L __Power:TPS54339 U2
+L TrafMasterV1-rescue:TPS54339-__Power U2
 U 1 1 5C10AC72
 P 7550 2050
 F 0 "U2" H 7550 2305 25  0000 C CNN
@@ -923,7 +923,7 @@ F 5 "TPS54339EDDAR" H 7550 2075 20  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C11
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C11
 U 1 1 5C10AC7B
 P 6975 2075
 F 0 "C11" H 6950 2100 10  0000 R CNN
@@ -937,7 +937,7 @@ F 6 "C3216X7R1E106K160AB" H 7000 2075 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C12
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C12
 U 1 1 5C10AC84
 P 7150 2075
 F 0 "C12" H 7092 2048 10  0000 R CNN
@@ -951,7 +951,7 @@ F 6 "C0805C474K3RACTU" H 7175 2075 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0125
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0125
 U 1 1 5C10AC8A
 P 6975 2175
 F 0 "#PWR0125" H 6950 2160 5   0001 C CNN
@@ -964,7 +964,7 @@ $EndComp
 Wire Wire Line
 	6975 2175 6975 2125
 $Comp
-L __SimpleParts:GND #PWR0126
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0126
 U 1 1 5C10AC91
 P 7150 2175
 F 0 "#PWR0126" H 7125 2160 5   0001 C CNN
@@ -977,7 +977,7 @@ $EndComp
 Wire Wire Line
 	7150 2175 7150 2125
 $Comp
-L __SimpleParts:GND #PWR0127
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0127
 U 1 1 5C10AC98
 P 7400 2250
 F 0 "#PWR0127" H 7375 2235 5   0001 C CNN
@@ -992,7 +992,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 2200 7450 2200
 $Comp
-L __SimpleParts:GND #PWR0128
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0128
 U 1 1 5C10ACA0
 P 7550 2300
 F 0 "#PWR0128" H 7525 2285 5   0001 C CNN
@@ -1022,7 +1022,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 2100 7650 2100
 $Comp
-L __SimpleParts:GND #PWR0129
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0129
 U 1 1 5C10ACB1
 P 7850 2100
 F 0 "#PWR0129" H 7825 2085 5   0001 C CNN
@@ -1037,7 +1037,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 1900 7650 1900
 $Comp
-L __SimpleParts:GND #PWR0130
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0130
 U 1 1 5C10ACC9
 P 7850 1900
 F 0 "#PWR0130" H 7825 1885 5   0001 C CNN
@@ -1050,7 +1050,7 @@ $EndComp
 Wire Wire Line
 	7850 1900 7800 1900
 $Comp
-L __SimpleParts:INDUCTOR L2
+L TrafMasterV1-rescue:INDUCTOR-__SimpleParts L2
 U 1 1 5C10ACD2
 P 7475 2500
 F 0 "L2" H 7475 2418 10  0000 C CNN
@@ -1068,7 +1068,7 @@ Wire Wire Line
 	7325 2500 7325 2100
 Connection ~ 7325 2100
 $Comp
-L __SimpleParts:GND #PWR0131
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0131
 U 1 1 5C10ACDB
 P 7600 2725
 F 0 "#PWR0131" H 7575 2710 5   0001 C CNN
@@ -1085,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 2500 7525 2500
 $Comp
-L __SimpleParts:Cap_UnPol C15
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C15
 U 1 1 5C10ACE7
 P 7725 2625
 F 0 "C15" H 7700 2650 10  0000 R CNN
@@ -1101,7 +1101,7 @@ $EndComp
 Wire Wire Line
 	7725 2725 7725 2675
 $Comp
-L __SimpleParts:GND #PWR0132
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0132
 U 1 1 5C10ACEE
 P 7725 2725
 F 0 "#PWR0132" H 7700 2710 5   0001 C CNN
@@ -1115,7 +1115,7 @@ Wire Wire Line
 	7725 2500 7725 2575
 Connection ~ 7600 2500
 $Comp
-L __SimpleParts:Cap_UnPol C18
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C18
 U 1 1 5C10ACF9
 P 7850 2625
 F 0 "C18" H 7825 2650 10  0000 R CNN
@@ -1131,7 +1131,7 @@ $EndComp
 Wire Wire Line
 	7850 2725 7850 2675
 $Comp
-L __SimpleParts:GND #PWR0133
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0133
 U 1 1 5C10AD00
 P 7850 2725
 F 0 "#PWR0133" H 7825 2710 5   0001 C CNN
@@ -1149,7 +1149,7 @@ Connection ~ 7725 2500
 Wire Wire Line
 	7725 2500 7850 2500
 $Comp
-L __Interfaces:Conn_Basic_2_pin P13
+L TrafMasterV1-rescue:Conn_Basic_2_pin-__Interfaces P13
 U 1 1 5C10AD0C
 P 8025 2625
 F 0 "P13" H 8078 2656 10  0000 L CNN
@@ -1169,7 +1169,7 @@ Connection ~ 7850 2500
 Wire Wire Line
 	8025 2725 8025 2675
 $Comp
-L __SimpleParts:GND #PWR0134
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0134
 U 1 1 5C10AD16
 P 8025 2725
 F 0 "#PWR0134" H 8000 2710 5   0001 C CNN
@@ -1187,7 +1187,7 @@ Connection ~ 6975 2000
 Text GLabel 8200 2400 2    30   Input ~ 0
 5V
 $Comp
-L __SimpleParts:Res R8
+L TrafMasterV1-rescue:Res-__SimpleParts R8
 U 1 1 5C10AD23
 P 7775 2325
 F 0 "R8" H 7750 2325 10  0000 R CNN
@@ -1201,7 +1201,7 @@ F 6 "RC0805FR-0718KL" V 8055 2645 60  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0135
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0135
 U 1 1 5C10AD29
 P 7775 2425
 F 0 "#PWR0135" H 7750 2410 5   0001 C CNN
@@ -1235,7 +1235,7 @@ Connection ~ 8100 2400
 Wire Wire Line
 	8100 2400 8100 2200
 $Comp
-L __SimpleParts:Cap_UnPol C13
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C13
 U 1 1 5C10AD3F
 P 7325 2000
 F 0 "C13" H 7275 1975 10  0000 R CNN
@@ -1249,7 +1249,7 @@ F 6 "C0805C474K3RACTU" H 7350 2000 10  0001 C CNN "Manufacturer1PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C16
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C16
 U 1 1 5C10AD48
 P 7750 1900
 F 0 "C16" V 7800 1950 10  0000 C CNN
@@ -1263,7 +1263,7 @@ F 6 "C0805C474K3RACTU" H 7775 1900 10  0001 C CNN "Manufacturer1PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C17
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C17
 U 1 1 5C10AD51
 P 7750 2100
 F 0 "C17" V 7800 2100 10  0000 C CNN
@@ -1277,7 +1277,7 @@ F 6 "C0805C474K3RACTU" H 7775 2100 10  0001 C CNN "Manufacturer1PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L __SimpleParts:Cap_UnPol C14
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C14
 U 1 1 5C10AD5A
 P 7600 2625
 F 0 "C14" H 7542 2598 10  0000 R CNN
@@ -1297,7 +1297,7 @@ Text Notes 7300 1625 0    40   ~ 0
 Text Notes 7725 1675 0    30   ~ 0
 3A max
 $Comp
-L __SimpleParts:Res R9
+L TrafMasterV1-rescue:Res-__SimpleParts R9
 U 1 1 5C10AD66
 P 7900 2200
 F 0 "R9" V 7850 2200 10  0000 R CNN
@@ -1311,7 +1311,7 @@ F 6 "RC0805FR-07100KL" V 8180 2520 60  0001 C CNN "Manufacturer1PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L __SimpleParts:Res R5
+L TrafMasterV1-rescue:Res-__SimpleParts R5
 U 1 1 5C1108DE
 P 5850 2325
 F 0 "R5" H 5825 2325 10  0000 R CNN
@@ -1329,7 +1329,7 @@ Text Notes 8225 2550 0    30   ~ 0
 Text Notes 6300 2550 0    30   ~ 0
 +-2%
 $Comp
-L __SimpleParts:FUSE F1
+L TrafMasterV1-rescue:FUSE-__SimpleParts F1
 U 1 1 5C09C8B3
 P 1325 2075
 F 0 "F1" V 1206 2075 10  0000 C CNN
@@ -1346,7 +1346,7 @@ Wire Wire Line
 	1250 2075 1100 2075
 Connection ~ 1100 2075
 $Comp
-L __SimpleParts:ZENER D1
+L TrafMasterV1-rescue:ZENER-__SimpleParts D1
 U 1 1 5C0A6B51
 P 1700 2250
 F 0 "D1" V 1625 2250 10  0000 L CNN
@@ -1360,7 +1360,7 @@ F 6 "SMAJ14A" H 2050 2550 60  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0136
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0136
 U 1 1 5C0A6C81
 P 1700 2400
 F 0 "#PWR0136" H 1675 2385 5   0001 C CNN
@@ -1375,7 +1375,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2175 1700 2075
 $Comp
-L __SimpleParts:INDUCTOR L3
+L TrafMasterV1-rescue:INDUCTOR-__SimpleParts L3
 U 1 1 5C0C5EE2
 P 1575 2075
 F 0 "L3" H 1575 1993 10  0000 C CNN
@@ -1393,7 +1393,7 @@ Wire Wire Line
 	1625 2075 1700 2075
 Connection ~ 1700 2075
 $Comp
-L __Interfaces:Conn_Basic_2_pin P14
+L TrafMasterV1-rescue:Conn_Basic_2_pin-__Interfaces P14
 U 1 1 5C0EFF61
 P 2600 2675
 F 0 "P14" H 2653 2706 10  0000 L CNN
@@ -1406,7 +1406,7 @@ F 5 "MFG1PN" H 2660 2685 10  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:GND #PWR0138
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0138
 U 1 1 5C0FE9B8
 P 2600 2775
 F 0 "#PWR0138" H 2575 2760 5   0001 C CNN
@@ -1421,7 +1421,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2075 2175 2075
 $Comp
-L __SimpleParts:Cap_UnPol C19
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C19
 U 1 1 5C137214
 P 2425 2675
 F 0 "C19" H 2483 2702 10  0000 L CNN
@@ -1444,7 +1444,7 @@ Connection ~ 2600 2575
 Wire Wire Line
 	2600 2575 2600 2625
 $Comp
-L __SimpleParts:GND #PWR0137
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0137
 U 1 1 5C14B28D
 P 2425 2775
 F 0 "#PWR0137" H 2400 2760 5   0001 C CNN
@@ -1463,7 +1463,7 @@ Wire Wire Line
 Text GLabel 4250 4600 0    30   Input ~ 0
 12V
 $Comp
-L __SimpleParts:N_MOS_SOT23 Q3
+L TrafMasterV1-rescue:N_MOS_SOT23-__SimpleParts Q3
 U 1 1 5C09EB84
 P 5775 4575
 F 0 "Q3" H 5878 4588 30  0000 L CNN
@@ -1476,7 +1476,7 @@ F 5 "DMN63D8L-7" H 5870 4500 10  0001 C CNN "Manufacturer1PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L __SimpleParts:Res R4
+L TrafMasterV1-rescue:Res-__SimpleParts R4
 U 1 1 5C0B5090
 P 5625 1725
 F 0 "R4" V 5650 1725 10  0000 L CNN
@@ -1494,7 +1494,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2000 7950 2000
 $Comp
-L __SimpleParts:Res R10
+L TrafMasterV1-rescue:Res-__SimpleParts R10
 U 1 1 5C0CAF92
 P 8100 2000
 F 0 "R10" V 8050 2000 10  0000 R CNN
@@ -1515,7 +1515,7 @@ Connection ~ 7950 2000
 Wire Wire Line
 	7950 2000 8025 2000
 $Comp
-L __SimpleParts:GND #PWR0123
+L TrafMasterV1-rescue:GND-__SimpleParts #PWR0123
 U 1 1 5C0D9900
 P 8175 1925
 F 0 "#PWR0123" H 8150 1910 5   0001 C CNN
@@ -1532,7 +1532,7 @@ Dev+
 Wire Wire Line
 	8175 2000 8375 2000
 $Comp
-L __SimpleParts:Cap_UnPol C20
+L TrafMasterV1-rescue:Cap_UnPol-__SimpleParts C20
 U 1 1 5C0E8E03
 P 8075 1925
 F 0 "C20" V 8125 1975 10  0000 C CNN
