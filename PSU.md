@@ -8,7 +8,7 @@ The PSU board converts a single 12v input into multiple voltages needed by the G
 ## Specification
 
 * **Max input voltage:** 14V working voltage
-* **Min input voltage:** ???
+* **Min input voltage:** 6v
 * **Max operating current:** 2A
 * **Size**: 50mm x 37mm x 9mm
 
@@ -65,6 +65,8 @@ While 5V is ON, ID is floating due to mosfet Q3 used as another inverter.
 While 5V is OFF, ID is driven to 0V.
 
 This completes the startup logic.
+
+The timing is calculated for Vin = 12v. Lower Vin will turn the OTG mode ON faster.
 
 #### Connectors
 

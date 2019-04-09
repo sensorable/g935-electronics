@@ -18,6 +18,7 @@ RS232 adapter,USB-RS232-PCBA,768-1066-ND,FTDI,http://www.ftdichip.com/Support/Do
 Graphite heat transfer sheet,EYG-A091201F,,Panasonic,https://industrial.panasonic.com/cdbs/www-data/pdf/AYA0000/AYA0000C27.pdf,https://www.digikey.com/product-detail/en/panasonic-electronic-components/EYG-A091201F/P19031-ND/5844858,1,DigiKey,Top and bottom heat sinks,,
 Heat transfer pad,TGX-150-150-0.5-0,,t-Global,http://www.tglobaltechnology.com/datasheets/TG-X.pdf,https://www.digikey.com/product-detail/en/t-global-technology/TGX-150-150-0.5-0/1168-1351-ND/3042180,0.25,DigiKey,Mobo to heatsinks,,
 Breathable vent,VENT-PS1YGY-N8001,1754-1229-ND,Amphenol LTW,http://www.amphenolltw.com/2012download/2D%20PDF/18_Vent%20Connectors/VENT-PS1XXX-XXXXX.pdf,https://www.digikey.com/product-detail/en/amphenol-ltw/VENT-PS1YGY-N8001/1754-1229-ND/7898284,1,DigiKey,Back of enclosure,,
+SS washer 11-16 x 0.5,,,,,,,,Required if the vent is threaded into the wall of the enclosure and no nut is used.,,
 ,,,,,,,,,,
 Chassis,,,custom 3D print,,http://www.clone3d.co.nz/,1,Clone 3D,Main plate,,
 Enclosure,RP1170,,Hammond,https://www.hammfg.com/part/RP1170,https://www.digikey.com/product-detail/en/hammond-manufacturing/RP1170/HM5793-ND/2570607,1,HiQ,Main enclosure,,
