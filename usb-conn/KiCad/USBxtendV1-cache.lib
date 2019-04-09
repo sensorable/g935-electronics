@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# __Interfaces_Conn_Basic_10_pin
+#
+DEF __Interfaces_Conn_Basic_10_pin P 0 40 Y Y 1 F N
+F0 "P" 0 400 20 H V C CNN
+F1 "__Interfaces_Conn_Basic_10_pin" 75 0 10 V V C CNN
+F2 "" -145 55 20 H V C CNN
+F3 "" -145 55 20 H V C CNN
+F4 "MFG1" 0 225 6 H I C CNN "Manufacturer1"
+F5 "MFG1PN" 25 225 6 H I C CNN "Manufacturer1PartNumber"
+DRAW
+S -50 -400 50 375 0 1 0 N
+X ~ 1 0 325 0 D 10 10 1 1 I
+X ~ 10 0 -350 0 D 10 10 1 1 I
+X ~ 2 0 250 0 D 10 10 1 1 I
+X ~ 3 0 175 0 D 10 10 1 1 I
+X ~ 4 0 100 0 D 10 10 1 1 I
+X ~ 5 0 25 0 D 10 10 1 1 I
+X ~ 6 0 -50 0 D 10 10 1 1 I
+X ~ 7 0 -125 0 D 10 10 1 1 I
+X ~ 8 0 -200 0 D 10 10 1 1 I
+X ~ 9 0 -275 0 D 10 10 1 1 I
+ENDDRAW
+ENDDEF
+#
+# __Interfaces_Conn_USB_5+Shell
+#
+DEF __Interfaces_Conn_USB_5+Shell P 0 40 Y Y 1 F N
+F0 "P" 0 200 10 H V C CNN
+F1 "__Interfaces_Conn_USB_5+Shell" -50 0 5 V V C CNN
+F2 "" -145 55 20 H V C CNN
+F3 "" -145 55 20 H V C CNN
+F4 "MFG1" 0 50 6 H I C CNN "Manufacturer1"
+F5 "MFG1PN" 25 50 6 H I C CNN "Manufacturer1PartNumber"
+DRAW
+S -25 175 25 -175 0 1 0 N
+P 2 0 1 0 50 -200 25 -175 N
+X VBUS 1 0 150 0 R 10 10 1 1 I
+X D- 2 0 75 0 R 10 10 1 1 I
+X D+ 3 0 0 0 R 10 10 1 1 I
+X ID 4 0 -75 0 R 10 10 1 1 I
+X GND 5 0 -150 0 R 10 10 1 1 I
+X SHELL 6 50 -200 0 R 10 10 1 1 I
+ENDDRAW
+ENDDEF
+#
+# __SimpleParts_GND
+#
+DEF ~__SimpleParts_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" -25 -15 5 H I C CNN
+F1 "__SimpleParts_GND" -30 -5 5 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 -15 -20 15 -20 0 -35 -15 -20 0 -20 0 0 N
+X GND1 1 0 0 0 D 5 5 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

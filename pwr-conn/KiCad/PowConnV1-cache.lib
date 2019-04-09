@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# __Interfaces_8Pin_2x4_inline
+#
+DEF __Interfaces_8Pin_2x4_inline P 0 40 Y Y 1 F N
+F0 "P" 0 25 10 H V C CNN
+F1 "__Interfaces_8Pin_2x4_inline" 0 -50 5 H V C CNN
+F2 "Footprints:8pin_molex_s7BatteryConn_5050040810" -5 -5 2 H I C CNN
+F3 "" -5 -5 20 H V C CNN
+F4 "Molex" 0 -25 10 H I C CNN "Manufacturer1"
+F5 "5050040810" 0 0 10 H I C CNN "Manufacturer1PartNumber"
+DRAW
+S -50 100 50 -100 0 1 0 N
+X ~ 1 -75 75 30 R 10 10 1 1 I
+X ~ 2 -75 25 30 R 10 10 1 1 I
+X ~ 3 -75 -25 30 R 10 10 1 1 I
+X ~ 4 -75 -75 30 R 10 10 1 1 I
+X ~ 5 75 -75 30 L 10 10 1 1 I
+X ~ 6 75 -25 30 L 10 10 1 1 I
+X ~ 7 75 25 30 L 10 10 1 1 I
+X ~ 8 75 75 30 L 10 10 1 1 I
+ENDDRAW
+ENDDEF
+#
+# __SimpleParts_GND
+#
+DEF ~__SimpleParts_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" -25 -15 5 H I C CNN
+F1 "__SimpleParts_GND" -30 -5 5 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 -15 -20 15 -20 0 -35 -15 -20 0 -20 0 0 N
+X GND1 1 0 0 0 D 5 5 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# __SimpleParts_PAD
+#
+DEF ~__SimpleParts_PAD P 0 0 N N 1 F N
+F0 "P" 0 25 10 H V C CNN
+F1 "__SimpleParts_PAD" 0 0 3 H I C CNN
+F2 "" -100 -75 60 H I C CNN
+F3 "" 30 0 60 H I C CNN
+F4 "MFG1" 0 -25 6 H I C CNN "Manufacturer1"
+F5 "MFG1PN" 0 0 6 H I C CNN "Manufacturer1PartNumber"
+DRAW
+S -10 10 10 -10 0 1 6 f
+X ~ 1 0 0 0 R 0 0 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
