@@ -18,10 +18,10 @@ It is based on Samsung G935F smartphone board with auxiliary chassis and electro
 
 ## Main components
 * G935F board with a rear camera and antennas
-* custom made chassis
-* Hammonds IP65 enclosure
-* auxiliary PSU
-* power and USB connectors
+* [custom G935f chassis](https://github.com/sensorable/g935-enclosure)
+* [Hammonds IP65 enclosure](https://www.hammfg.com/part/RP1170)
+* [auxiliary PSU](https://github.com/sensorable/g935-electronics/tree/master/psu)
+* [power](https://github.com/sensorable/g935-electronics/tree/master/pwr-conn) and [USB connectors](https://github.com/sensorable/g935-electronics/tree/master/usb-conn)
 
 The camera can be assembled, programmed, tested and deployed by a sufficiently skilled technician.  
 
