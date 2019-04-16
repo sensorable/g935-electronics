@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# TrafMasterV1-rescue_Cap_UnPol-__SimpleParts
+# TrafMasterV1-rescue_Cap_UnPol-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_Cap_UnPol-__SimpleParts C 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_Cap_UnPol-__SimpleParts-TrafMasterV1-rescue C 0 40 Y Y 1 F N
 F0 "C" 20 -30 10 H V C CNN
-F1 "TrafMasterV1-rescue_Cap_UnPol-__SimpleParts" -5 5 10 H V C CNN
+F1 "TrafMasterV1-rescue_Cap_UnPol-__SimpleParts-TrafMasterV1-rescue" -5 5 10 H V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 F4 "V" 20 25 10 H V C CIN "Voltage"
@@ -19,11 +19,11 @@ X ~ 2 0 -50 35 U 16 8 1 1 U
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_Conn_Basic_2_pin-__Interfaces
+# TrafMasterV1-rescue_Conn_Basic_2_pin-__Interfaces-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_Conn_Basic_2_pin-__Interfaces P 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_Conn_Basic_2_pin-__Interfaces-TrafMasterV1-rescue P 0 40 Y Y 1 F N
 F0 "P" 0 100 10 H V C CNN
-F1 "TrafMasterV1-rescue_Conn_Basic_2_pin-__Interfaces" 0 -100 5 H V C CNN
+F1 "TrafMasterV1-rescue_Conn_Basic_2_pin-__Interfaces-TrafMasterV1-rescue" 0 -100 5 H V C CNN
 F2 "" -145 55 20 H V C CNN
 F3 "" -145 55 20 H V C CNN
 F4 "MFG1" 70 -10 0 H I C CNN "Manufacturer1"
@@ -35,11 +35,11 @@ X ~ 2 0 -50 0 D 10 10 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_Conn_Basic_5_pin_0-__Interfaces
+# TrafMasterV1-rescue_Conn_Basic_5_pin_0-__Interfaces-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_Conn_Basic_5_pin_0-__Interfaces P 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_Conn_Basic_5_pin_0-__Interfaces-TrafMasterV1-rescue P 0 40 Y Y 1 F N
 F0 "P" 0 200 10 H V C CNN
-F1 "TrafMasterV1-rescue_Conn_Basic_5_pin_0-__Interfaces" -50 0 5 V V C CNN
+F1 "TrafMasterV1-rescue_Conn_Basic_5_pin_0-__Interfaces-TrafMasterV1-rescue" -50 0 5 V V C CNN
 F2 "" -145 55 20 H V C CNN
 F3 "" -145 55 20 H V C CNN
 F4 "MFG1" 0 50 6 H I C CNN "Manufacturer1"
@@ -54,11 +54,11 @@ X ~ 5 0 -150 0 D 10 10 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_FUSE-__SimpleParts
+# TrafMasterV1-rescue_FUSE-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_FUSE-__SimpleParts F 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_FUSE-__SimpleParts-TrafMasterV1-rescue F 0 40 Y Y 1 F N
 F0 "F" -100 0 10 V V C CNN
-F1 "TrafMasterV1-rescue_FUSE-__SimpleParts" -75 0 10 V V C CNN
+F1 "TrafMasterV1-rescue_FUSE-__SimpleParts-TrafMasterV1-rescue" -75 0 10 V V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 F4 "Tol" 5 10 60 H I C CNN "Tolerance"
@@ -75,11 +75,11 @@ X ~ 2 0 -75 20 U 16 8 1 1 U
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_GND-__SimpleParts
+# TrafMasterV1-rescue_GND-__SimpleParts-TrafMasterV1-rescue
 #
-DEF ~TrafMasterV1-rescue_GND-__SimpleParts #PWR 0 0 Y Y 1 F P
+DEF ~TrafMasterV1-rescue_GND-__SimpleParts-TrafMasterV1-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" -25 -15 5 H I C CNN
-F1 "TrafMasterV1-rescue_GND-__SimpleParts" -30 -5 5 H I C CNN
+F1 "TrafMasterV1-rescue_GND-__SimpleParts-TrafMasterV1-rescue" -30 -5 5 H I C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -88,11 +88,11 @@ X GND1 1 0 0 0 D 5 5 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_INDUCTOR-__SimpleParts
+# TrafMasterV1-rescue_INDUCTOR-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_INDUCTOR-__SimpleParts L 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_INDUCTOR-__SimpleParts-TrafMasterV1-rescue L 0 40 Y Y 1 F N
 F0 "L" 0 -25 10 H V C CNN
-F1 "TrafMasterV1-rescue_INDUCTOR-__SimpleParts" 0 -50 10 H V C CNN
+F1 "TrafMasterV1-rescue_INDUCTOR-__SimpleParts-TrafMasterV1-rescue" 0 -50 10 H V C CNN
 F2 "" -100 -125 60 H I C CNN
 F3 "" 0 -25 60 H I C CNN
 F4 "MFG1" 100 75 60 H I C CNN "Manufacturer1"
@@ -107,11 +107,11 @@ X ~ 2 50 0 10 L 16 8 1 1 U
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_N_MOS_SOT23-__SimpleParts
+# TrafMasterV1-rescue_N_MOS_SOT23-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_N_MOS_SOT23-__SimpleParts Q 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_N_MOS_SOT23-__SimpleParts-TrafMasterV1-rescue Q 0 40 Y Y 1 F N
 F0 "Q" 125 0 30 H V C CNN
-F1 "TrafMasterV1-rescue_N_MOS_SOT23-__SimpleParts" 75 -100 10 H V C CNN
+F1 "TrafMasterV1-rescue_N_MOS_SOT23-__SimpleParts-TrafMasterV1-rescue" 75 -100 10 H V C CNN
 F2 "" -550 275 60 H I C CNN
 F3 "" -550 275 60 H I C CNN
 F4 "MFG1" 90 -65 6 H I C CNN "Manufacturer1"
@@ -134,11 +134,11 @@ X ~ 3 0 150 25 D 10 10 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_PAD-__SimpleParts
+# TrafMasterV1-rescue_PAD-__SimpleParts-TrafMasterV1-rescue
 #
-DEF ~TrafMasterV1-rescue_PAD-__SimpleParts P 0 0 N N 1 F N
+DEF ~TrafMasterV1-rescue_PAD-__SimpleParts-TrafMasterV1-rescue P 0 0 N N 1 F N
 F0 "P" 0 25 10 H V C CNN
-F1 "TrafMasterV1-rescue_PAD-__SimpleParts" 0 0 3 H I C CNN
+F1 "TrafMasterV1-rescue_PAD-__SimpleParts-TrafMasterV1-rescue" 0 0 3 H I C CNN
 F2 "" -100 -75 60 H I C CNN
 F3 "" 30 0 60 H I C CNN
 F4 "MFG1" 0 -25 6 H I C CNN "Manufacturer1"
@@ -149,11 +149,11 @@ X ~ 1 0 0 0 R 0 0 1 1 U
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_P_MOS_SOT23-__SimpleParts
+# TrafMasterV1-rescue_P_MOS_SOT23-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_P_MOS_SOT23-__SimpleParts Q 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_P_MOS_SOT23-__SimpleParts-TrafMasterV1-rescue Q 0 40 Y Y 1 F N
 F0 "Q" 125 0 30 H V C CNN
-F1 "TrafMasterV1-rescue_P_MOS_SOT23-__SimpleParts" 75 -100 10 H V C CNN
+F1 "TrafMasterV1-rescue_P_MOS_SOT23-__SimpleParts-TrafMasterV1-rescue" 75 -100 10 H V C CNN
 F2 "" -550 275 60 H I C CNN
 F3 "" -550 275 60 H I C CNN
 F4 "MFG1" 0 50 5 H I C CNN "Manufacturer1"
@@ -177,11 +177,11 @@ X ~ 3 0 150 25 D 10 10 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_Res-__SimpleParts
+# TrafMasterV1-rescue_Res-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_Res-__SimpleParts R 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_Res-__SimpleParts-TrafMasterV1-rescue R 0 40 Y Y 1 F N
 F0 "R" -25 0 10 V V C CNN
-F1 "TrafMasterV1-rescue_Res-__SimpleParts" 25 0 10 V V C CNN
+F1 "TrafMasterV1-rescue_Res-__SimpleParts-TrafMasterV1-rescue" 25 0 10 V V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 F4 "Tol" 80 120 60 V I C CNN "Tolerance"
@@ -194,11 +194,11 @@ X ~ 2 0 -75 20 U 16 8 1 1 U
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_TPS54339-__Power
+# TrafMasterV1-rescue_TPS54339-__Power-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_TPS54339-__Power U 0 10 Y Y 1 F N
+DEF TrafMasterV1-rescue_TPS54339-__Power-TrafMasterV1-rescue U 0 10 Y Y 1 F N
 F0 "U" 0 0 25 H V C CNN
-F1 "TrafMasterV1-rescue_TPS54339-__Power" 0 100 10 H V C CNN
+F1 "TrafMasterV1-rescue_TPS54339-__Power-TrafMasterV1-rescue" 0 100 10 H V C CNN
 F2 "" -250 175 10 H V C CNN
 F3 "" -250 175 10 H V C CNN
 F4 "MFG1" 0 -25 20 H I C CNN "Manufacturer1"
@@ -217,11 +217,11 @@ X GND_PAD 9 0 -200 25 U 10 10 1 1 U
 ENDDRAW
 ENDDEF
 #
-# TrafMasterV1-rescue_ZENER-__SimpleParts
+# TrafMasterV1-rescue_ZENER-__SimpleParts-TrafMasterV1-rescue
 #
-DEF TrafMasterV1-rescue_ZENER-__SimpleParts D 0 40 Y Y 1 F N
+DEF TrafMasterV1-rescue_ZENER-__SimpleParts-TrafMasterV1-rescue D 0 40 Y Y 1 F N
 F0 "D" 50 0 10 H V C CNN
-F1 "TrafMasterV1-rescue_ZENER-__SimpleParts" 50 -25 10 H V C CNN
+F1 "TrafMasterV1-rescue_ZENER-__SimpleParts-TrafMasterV1-rescue" 50 -25 10 H V C CNN
 F2 "" 0 -100 60 H V C CNN
 F3 "" 0 -100 60 H V C CNN
 F4 "V" 35 -40 10 H V C CIN "Voltage"
