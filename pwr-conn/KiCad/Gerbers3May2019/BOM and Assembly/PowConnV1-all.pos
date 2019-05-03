@@ -1,0 +1,7 @@
+### Module positions - created on 5/3/2019 1:51:02 PM ###
+### Printed by Pcbnew version kicad (5.0.2)-1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val              Package                                   PosX       PosY       Rot  Side
+P1        8Pin_2x4_inline  8pin_molex_s7BatteryConn_5050040810    -1.5862    -3.7965    0.0000  bottom
+## End
