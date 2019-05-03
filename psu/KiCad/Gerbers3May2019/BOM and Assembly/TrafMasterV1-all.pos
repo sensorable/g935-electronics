@@ -1,0 +1,46 @@
+### Module positions - created on 5/3/2019 2:17:13 PM ###
+### Printed by Pcbnew version kicad (5.0.2)-1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                Package                                PosX       PosY       Rot  Side
+C1        10uF               1206_Big-Pads                       -3.7664    -3.9557    0.0000  bottom
+C2        10uF               1206_Big-Pads                       -3.4580    -3.4550    0.0000  bottom
+C3        .47uF              0805_Medium_Pads                    -3.4565    -3.2690    0.0000  bottom
+C4        .47uF              0805_Medium_Pads                    -3.4560    -3.1110  180.0000  bottom
+C5        .47uF              0805_Medium_Pads                    -3.6712    -3.0288   35.0000  bottom
+C6        10uF               1206_Big-Pads                       -3.4960    -2.7260  270.0000  bottom
+C7        .47uF              0805_Medium_Pads                    -3.6163    -3.5640  270.0000  bottom
+C8        .47uF              0805_Medium_Pads                    -3.7730    -3.2580    0.0000  bottom
+C9        10uF               1206_Big-Pads                       -3.4960    -2.6230  270.0000  bottom
+C10       10uF               1206_Big-Pads                       -3.8779    -3.9542  180.0000  bottom
+C11       10uF               1206_Big-Pads                       -3.5000    -3.6530  270.0000  bottom
+C12       .47uF              0805_Medium_Pads                    -4.7816    -3.5285  180.0000  bottom
+C13       .47uF              0805_Medium_Pads                    -4.6690    -3.7202  270.0000  bottom
+C14       .47uF              0805_Medium_Pads                    -4.4594    -3.6314   90.0000  bottom
+C15       10uF               1206_Big-Pads                       -4.4502    -4.0498   90.0000  bottom
+C16       .47uF              0805_Medium_Pads                    -4.7848    -3.3372  180.0000  bottom
+C17       .47uF              0805_Medium_Pads                    -4.4764    -3.4486  180.0000  bottom
+C18       10uF               1206_Big-Pads                       -4.4486    -3.9466   90.0000  bottom
+C19       100uF              CAP_SMD_CAN_6.6x6.6mm               -4.5950    -3.2050  270.0000  bottom
+C20       .47uF              0805_Medium_Pads                    -4.3480    -3.2001  180.0000  bottom
+D1        Uni_Zener_23V@17A  SMA                                 -4.6575    -2.9875  270.0000  bottom
+F1        PTC_FUSE           1812                                -4.7402    -2.7441    0.0000  bottom
+L1        3.3uH_4.2A_35m     IND_2_5x5mm                         -3.4870    -2.9074  180.0000  bottom
+L2        3.3uH_4.2A_35m     IND_2_5x5mm                         -4.4424    -3.7854  270.0000  bottom
+L3        3.3uH_4.2A_35m     IND_2_5x5mm                         -4.4961    -2.7717    0.0000  bottom
+P1        Conn_Basic_10_pin  CONN_5034801000_MOLEX_FFC_10pin     -4.0017    -3.1487  180.0000  bottom
+Q1        P_MOS_SOT23        SOT-23                              -3.8478    -3.7384  180.0000  bottom
+Q2        N_MOS_SOT23        SOT-23                              -4.0024    -4.0007   90.0000  bottom
+Q3        N_MOS_SOT23        SOT-23                              -3.9884    -3.7617  180.0000  bottom
+R1        1M                 0805_Medium_Pads                    -4.0164    -3.8807   90.0000  bottom
+R2        1k                 0805_Medium_Pads                    -3.7272    -3.7722  180.0000  bottom
+R3        DNU                0805_Medium_Pads                    -4.1364    -3.9907  180.0000  bottom
+R4        1k                 0805_Medium_Pads                    -3.6120    -3.4810   90.0000  bottom
+R5        22.6k              0805_Medium_Pads                    -3.7240    -3.4820    0.0000  bottom
+R6        100k               0805_Medium_Pads                    -3.7740    -3.1085    0.0000  bottom
+R8        18k                0805_Medium_Pads                    -4.3930    -3.4452    0.0000  bottom
+R9        100k               0805_Medium_Pads                    -4.4348    -3.5544   90.0000  bottom
+R10       22.6k              0805_Medium_Pads                    -3.6168    -2.1978   90.0000  bottom
+U1        TPS54339           SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm    -3.6145    -3.2570  270.0000  bottom
+U2        TPS54339           SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm    -4.6349    -3.5132   90.0000  bottom
+## End
