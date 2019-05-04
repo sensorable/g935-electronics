@@ -1,0 +1,7 @@
+### Module positions - created on 5/3/2019 7:49:50 PM ###
+### Printed by Pcbnew version kicad (5.0.2)-1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                Package                               PosX       PosY       Rot  Side
+P2        Conn_Basic_10_pin  CONN_5034801000_MOLEX_FFC_10pin    -3.0170    -2.3216  180.0000  bottom
+## End
