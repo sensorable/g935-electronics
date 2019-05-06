@@ -40,7 +40,7 @@ Custom PCBA parts are listed below,,,,,,,,,,
 ,,,,,,,,,,
 USB to FFC adapter board,,,,,,,,,,
 FFC connector,5034801000,WM1389CT-ND,Molex,https://www.molex.com/pdm_docs/sd/5034801000_sd.pdf,https://www.digikey.com/product-detail/en/molex-llc/5034801000/WM1389CT-ND/2356643,1,DigiKey,P2,,
-USB plug,USB3150-30-130-A,,GCT,https://gct.co/connector/usb3150,https://nz.element14.com/search?st=%27Global%20Connector%20Technology%27%20USB3150#,1,Element14,P1,,
+USB plug,USB3150-30-130-A,2073-USB3150-30-130-ACT-ND,GCT,https://gct.co/connector/usb3150,https://www.digikey.com/product-detail/en/gct/USB3150-30-130-A/2073-USB3150-30-130-ACT-ND/9859720,1,DigiKey,P1,,
 USB FFC,152660102,WM22883-ND,Molex,https://www.molex.com/pdm_docs/sd/152660102_sd.pdf,https://www.digikey.com/products/en?keywords=152660102,1,DigiKey,Master to USB,,
 ,,,,,,,,,,
 ,,,,,,,,,,
@@ -51,14 +51,14 @@ SlimStack batt connector,5050040810,WM11285CT-ND,Molex,https://www.molex.com/pdm
 ,,,,,,,,,,
 Master Board,,,,,,,,,,
 DNU,DNU,,DNU,,,0,,"P2,P3,P6,P7,R3,P10,P11,P13,P14",DNU,1
-CONN PIN SPRING-LOADED,0906-4-15-20-75-14-11-0,ED8184-ND,Mill-Max,https://www.mill-max.com/assets/pdfs/metric/025M.pdf,https://www.digikey.com/products/en?keywords=0906-4-15-20-75-14-11-0,2,DigiKey,"P4,P5",CONN_1_PADnHOLE_2.2mmx.8mm,2
+CONN PIN SPRING-LOADED,0906-2-15-20-75-14-11-0,ED8182-ND,Mill-Max,https://www.mill-max.com/assets/pdfs/metric/025M.pdf,https://www.digikey.com/products/en?keywords=0906-2-15-20-75-14-11-0,2,DigiKey,"P4,P5",CONN_1_PADnHOLE_2.2mmx.8mm,2
 10 pin FFC connector,5034801000,WM1389CT-ND,Molex,https://www.molex.com/pdm_docs/sd/5034801000_sd.pdf,https://www.digikey.com/product-detail/en/molex-llc/5034801000/WM1389CT-ND/2356643,1,DigiKey,P1,CONN_5034801000_MOLEX_FFC_10pin,3
 External connector (screws),1725656,1725656,Phoenix Contact,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725656.pdf,https://www.digikey.com/product-detail/en/phoenix-contact/1725656/277-1273-ND/267462,1,DigiKey,P8,TERM_BLK_2_SIDE_2.54MM,4
 USB-A socket,292303-9,A108853CT-ND,TE Connectivity,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=292303&DocType=Customer+Drawing&DocLang=English,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/292303-9/A108853CT-ND/4031485,1,DigiKey,P9,CONN_RCPT_USB2_TYPEA_RA_TE,5
-N_MOS_SOT23,SI2304BDS-T1-E3,SI2304BDS-T1-E3CT-ND,Vishay Siliconix,http://www.vishay.com/docs/72503/si2304bds.pdf,https://www.digikey.com/product-detail/en/vishay-siliconix/SI2304BDS-T1-E3/SI2304BDS-T1-E3CT-ND/1656838,2,DigiKey,"Q2,Q3",SOT-23,6
+N_MOS_SOT23,DMN63D8L-7,DMN63D8L-7,Diodes Incorporated,https://www.diodes.com/assets/Datasheets/DMN63D8L.pdf,https://www.digikey.com/product-detail/en/diodes-incorporated/DMN63D8L-7/DMN63D8L-7DICT-ND/5699723,2,DigiKey,"Q2,Q3",SOT-23,6
 P_MOS_SOT23,DMG2305UX-13,DMG2305UX-13DICT-ND,Diodes Inc,https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf,https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2305UX-13/DMG2305UX-13DICT-ND/4251589,1,DigiKey,Q1,SOT-23,7
 1k,RC0805FR-071KL,311-1.00KCRCT-ND,Yageo,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391,2,DigiKey,"R2,R4",0805_Medium_Pads,8
-10uF,12063C106KAT2A,478-9944-1-ND,AVX,http://datasheets.avx.com/X7RDielectric.pdf,https://www.digikey.com/product-detail/en/avx-corporation/12063C106KAT2A/478-9944-1-ND/6149048,8,DigiKey,"C1,C10,C2,C6,C9,C11,C15,C18",1206_Big-Pads,9
+10uF,C3216X7R1E106K160AB,445-7705-1-ND,TDK Corporation,https://product.tdk.com/info/en/documents/chara_sheet/C3216X7R1E106K160AB.pdf,https://www.digikey.com/product-detail/en/tdk-corporation/C3216X7R1E106K160AB/445-7705-1-ND/2733777,8,DigiKey,"C1,C10,C2,C6,C9,C11,C15,C18",1206_Big-Pads,9
 1M,RC0805FR-071ML,311-1.00MCRCT-ND,Yageo,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf,https://www.digikey.com/product-detail/en/yageo/RC0805FR-071ML/311-1.00MCRCT-ND/730392,1,DigiKey,R1,0805_Medium_Pads,10
 TPS54339,TPS54339EDDAR,296-40793-1-ND,TI,http://www.ti.com/lit/ds/symlink/tps54339e.pdf,https://www.digikey.com/product-detail/en/texas-instruments/TPS54339EDDAR/296-40793-1-ND/5178670,2,DigiKey,"U1,U2",SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm,11
 .47uF,C0805C474K3RACTU,399-8098-1-ND,KEMET,https://api.kemet.com/component-edge/download/datasheet/C0805C474K3RACTU.pdf,https://www.digikey.com/product-detail/en/kemet/C0805C474K3RACTU/399-8098-1-ND/3471821,11,DigiKey,"C3,C4,C7,C8,C5,C12,C13,C16,C17,C14,C20",0805_Medium_Pads,12
